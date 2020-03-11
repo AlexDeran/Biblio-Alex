@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Thasadith');
+
+/* Mise en page*/
+
+/* Info Utilisateurs */
+#users{
+  background-image:url("../img/users.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: center;
+
+}
+
+.card{
+  margin-top:2%;
+  margin-bottom:2%;
+  
+  }
+
+/* Catalogue*/
+
+#livres{
+  background-image:url("../img/users.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: center;
+
+}
+.row.rounded.text-center.mb-5.align-middle{
+background-color:rgba(0, 0, 0, 0.616); color:white;
+display: flex;
+}
+.col-md-4.p-3.align-middle {
+  margin: auto; /* eh oui, tout bêtement */
+}
+
+.col-md-3.p-3.align-middle {
+  margin: auto; /* eh oui, tout bêtement */
+}
+
+.col-md-5.p-3.align-middle {
+  margin: auto; /* eh oui, tout bêtement */
+}
+
+.containercat{
+  margin:2%;
+  margin-bottom:2%;
+  margin-right: 6%;
+  margin-left: 6%;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#hometitle{
+  line-height:500%;
+}
+
+/*Admin*/
+
+#Admindisplay{
+  background-image:url("../img/displayadmin.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+#admin{
+  background-image:url("../img/biblioadmin.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+#UsersDisplay{
+  background-color:  #C2B4B4;
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 25px;
+}
+#user{ 
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+.container{
+  background-color: white;
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 25px;
+}
+
+/*HEADER (Accueil) */
+
+header {
+    width: 100%;
+    height: 100vh;
+    background:
+      radial-gradient(ellipse at center, transparent, rgba(0,0,0,.5)),
+      url('../img/404.jpg') center center / cover no-repeat;
+      
+}
+
+header h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    letter-spacing: 6px;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 45%;
+
+}
+header p {
+    position: relative;
+    color: white;
+    top: 50%;
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 200px;
+
+}
+
+/*SECTION*/
+main section {
+    font-size: initial;
+    width: 100%; min-height: 100vh;
+    padding-top: 10px !important;
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5d4037 , #d84315); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5d4037 , #d84315); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : black;
+   }
+  
+.titre {
+  font-family: 'Thasadith', sans-serif;
+  color: black;
+  font-size: 2em;
+}
+
+hr {
+  padding-top: 25px;
+  padding-bottom: 35px;
+  color:#3a6186;
+}
+
+/*CARD */
+
+   .box15{position:relative}
+.box15 img{width:100%;height:auto}
+.box15 .box-content{width:100%;height:100%;position:absolute;top:0;left:0;transition:all .5s ease 0s}
+.box15:hover .box-content{background-color:rgba(255,242,242,.8)}
+.box15 .box-content:after,.box15 .box-content:before{content:"";width:50px;height:50px;position:absolute;opacity:0;transform:scale(1.5);transition:all .6s ease .3s}
+.box15 .box-content:before{border-left:1px solid #040404;border-top:1px solid #040404;top:19px;left:19px}
+.box15 .box-content:after{border-bottom:1px solid #040404;border-right:1px solid #040404;bottom:19px;right:19px}
+.box15:hover .box-content:after,.box15:hover .box-content:before{opacity:1;transform:scale(1)}
+.box15 .title{font-size:22px;color:#000;margin:0;position:relative;top:0;opacity:0;transition:all 1s ease 10ms}
+.box15:hover .title{top:39%;opacity:1;transition:all .5s cubic-bezier(1,-.53,.405,1.425) 10ms}
+.box15 .title:after{content:"";width:0;height:1px;background:#040404;position:absolute;bottom:-8px;left:0;right:0;margin:0 auto;transition:all 1s ease 0s}
+.box15:hover .title:after{width:80%;transition:all 1s ease .8s}
+.box15 .icon{width:100%;margin:0 auto;position:absolute;bottom:0;opacity:0;transition-duration:.6s;transition-timing-function:cubic-bezier(1,-.53,.405,1.425);transition-delay:.1s}
+.box15:hover .icon{bottom:39%;opacity:1}
+.box15 .icon li{display:inline-block}
+.box15 .icon li a{display:block;width:40px;height:40px;line-height:40px;border-radius:50%;font-size:18px;color:#000;border:1px solid #000;margin-right:5px;transition:all .3s ease-in-out 0s}
+.box15 .icon li a:hover{background:#000;color:#fff}
+@media only screen and (max-width:990px){.box15{margin-bottom:30px}
+}
+
+
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
