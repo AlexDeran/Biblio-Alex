@@ -1,6 +1,6 @@
 # Bibilo Project
 
-A online library project with a login module separting the librarian (admin) and the customers.
+A online library project with a login module separating the librarian (admin) and the customers.
 
 Sensible data encrypted in a DB obviously.
 
