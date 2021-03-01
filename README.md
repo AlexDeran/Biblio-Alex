@@ -2,7 +2,7 @@
 
 A online library project with a login module separating the librarian (admin) and the customers.
 
-Sensible data encrypted in a DB obviously.
+Sensible data are encrypted in a DB obviously.
 
 Admin has a "management" page where he can manage borrowed and returning books from customers, add and delete, books and authors from the catalog.
 
